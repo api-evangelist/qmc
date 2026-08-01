@@ -1,7 +1,25 @@
 aid: qmc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qmc.png
 name: QMC
-description: 'QMC is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting the enrichment pipeline.'
+description: 'QMC Telecom is a provider of shared telecommunications infrastructure for
+  mobile networks, operating across Brazil, Mexico, Colombia, Peru, and Chile. The company
+  develops, owns, operates, and leases indoor connectivity solutions, street-level
+  solutions (SLS), and towers, rooftops, and special sites, positioning itself as a
+  partner in 5G network densification. Originally surfaced as a portfolio company of
+  Accel and added to the API Evangelist network as a stub, this is a hardware and
+  telecommunications-infrastructure company that publishes no public developer or API
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/qmc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +28,22 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Hardware
+- Telecommunications
+- Infrastructure
+- Mobile Networks
+- 5G
+- Towers
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +51,15 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/qmc-domain-security.yml
 - type: Website
-  url: http://www.qmctelecom.com.br
+  url: https://www.qmctelecom.com
+- type: About
+  url: https://www.qmctelecom.com/about-us/
+- type: Careers
+  url: https://www.qmctelecom.com/careers/
+- type: Support
+  url: https://www.qmctelecom.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.qmctelecom.com/privacy-policy/
